@@ -58,7 +58,7 @@ func logConfig(cfg *Config) {
 	log.Println("------Configuration Loaded-------")
 	log.Println("Service Name:", cfg.ServiceName)
 	log.Println("Environment:", cfg.Environment)
-	log.Println("Cluster Name:", cfg.ClusterName)
+	//log.Println("Cluster Name:", cfg.ClusterName)
 	log.Println("Poll Interval:", cfg.PollInterval)
 	log.Println("Event Sink URL:", cfg.EventSinkURL)
 	log.Println("Event Timeout:", cfg.EventTimeout)
